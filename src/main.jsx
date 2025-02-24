@@ -11,18 +11,11 @@ import { Padre } from "./07-tarea-memo/Padre";
 // import { SimpleForm } from "./02-useEffect/SimpleForm";
 // import { FormWithCustomHook } from "./02-useEffect/FormWithCustomHook";
 // import { MultipleCustomHook } from "./03-examples/MultipleCustomHook";
-
+import "./08-useReducer/intro-reducer";
+import { TodoApp } from "./08-useReducer/TodoApp";
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
-  //   {/* <CounterApp /> */}
-  //   {/* <CounterWithCustomHook/> */}
-  // </StrictMode>
-      // <SimpleForm />
-      // <FormWithCustomHook/>
+  <TodoApp />
 
-//<Layout/>
-//<Memorize/>
-//<MemoHook/>
-//<CallbackHook/>
-<Padre/>
+  // </StrictMode>
 );
